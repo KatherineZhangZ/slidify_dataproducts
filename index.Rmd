@@ -1,0 +1,58 @@
+---
+title       : K-Mean Cluster Analysis Slidify 
+subtitle    : Wine 
+author      : Katherine Zhang
+job         : 
+logo        : wine.jpeg
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Research Question 
+
+How to cluster different types of wines based on their composition? For purpose of visualization, this analysis will only look at clusters at two dimensions. 
+
+--- .class #1 
+
+## Data
+The dataset used for this analysis consists of 13 features of 178 different types of wine. The dataset is from R rattle package. 
+
+```{r}
+data(wine,package="rattle")
+```
+
+--- .class #2
+
+## Method 
+K-mean function is used to generated the final result. The three inputs to K-mean functions are: 
+* Feature 1 on X axis. 
+* Feature 2 on Y axis.
+* Number of clusters. 
+
+--- .class #3
+
+
+## Layout 
+The layout of the Shiny App 
+
+
+--- .class #4 
+
+## Conclusion
+
+K-mean cluster can be used to catogrize different types of Wines by their composition. 
+
+
+
+
+
+
+
+
+
+
+
